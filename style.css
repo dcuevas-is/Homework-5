@@ -1,6 +1,9 @@
-.container {
+
+
+header {
     background-color: teal;
     color: white;
+    font-size: 15px;
     font-family: sans-serif;
     text-align: center;
     padding: 30px 50px;
@@ -8,8 +11,16 @@
     margin: 50px 100px;
 }
 
+div {
+    display: inline-block;
+}
+
+.container1 {
+    margin-left: 100px;
+}
+
 .container2 {
-    text-align: center;
+    margin-left: 20px;
 }
 
 button {
@@ -18,4 +29,10 @@ button {
     border-radius: 8px;
     background-color: white;
     border-color:blue;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+input {
+    border-radius: 4px;
 }
