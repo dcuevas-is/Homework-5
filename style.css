@@ -1,9 +1,11 @@
 .container {
     background-color: teal;
     color: white;
+    font-family: sans-serif;
     text-align: center;
     padding: 30px 50px;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin: 50px 100px;
 }
 
 .container2 {
