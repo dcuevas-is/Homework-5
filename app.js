@@ -8,11 +8,11 @@ function inRange() {
         document.getElementById('primes').innerText = "";
     }
     else if(num1 >= 2 && num1 <= 100 && num2 >= 2 && num2 <=100){
-        findPrimes(num1, num2);
+        createArray(num1, num2);
     }
 }
 
-function findPrimes(firstInput, secondInput){
+function createArray(firstInput, secondInput){
     var numArray = []
     const smallNum = 0
     const largeNum = 0
@@ -35,3 +35,15 @@ function findPrimes(firstInput, secondInput){
         }
     }
 }
+
+function primeNum(num) {
+    var result = true;
+    for (var i=2; i <= Math.ceil(num/2); i++){
+        if((num%i)==0){
+            result = false;
+            break;
+        }
+    }
+    return result;
+}
+
