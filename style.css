@@ -36,3 +36,12 @@ button {
 input {
     border-radius: 4px;
 }
+#primes {
+    font-family: sans-serif;
+    color: teal;
+}
+
+#error {
+    font-family: sans-serif;
+    color: red;
+}
