@@ -38,10 +38,10 @@ function createArray(firstInput, secondInput){
     while(smallNum <= largeNum){
         if(primeNum(smallNum) == true){
             numArray.push(smallNum)
-            smallNum = smallNum + 1
+            smallNum += 1
         }
         else if(primeNum(smallNum) == false){
-            smallNum = smallNum + 1
+            smallNum += 1
         }
     }
     document.getElementById('primes').innerHTML = "There are " + numArray.length + " prime numbers";

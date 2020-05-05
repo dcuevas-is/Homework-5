@@ -39,9 +39,11 @@ input {
 #primes {
     font-family: sans-serif;
     color: teal;
+    margin-left: 100px;
 }
 
 #error {
     font-family: sans-serif;
     color: red;
+    margin-left: 100px;
 }
